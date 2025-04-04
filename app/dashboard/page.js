@@ -17,7 +17,7 @@ export default function Dashboard() {
         </thead>
         <tbody>
           {data.map((item) => (
-            <tr key={item._id} className="hover:bg-gray-50">
+            <tr key={item._id} className="hover:bg-purple-50">
               <td className="border border-gray-300 p-2">{item.index}</td>
               <td className="border border-gray-300 p-2">{item.name}</td>
               <td className="border border-gray-300 p-2">{item.registrationNo}</td>
