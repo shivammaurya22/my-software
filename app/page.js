@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className="flex justify-between">
           <button
-            type="submit"
+            // type="submit"
             className="inline-flex justify-center px-6 py-2 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-800 focus:ring-offset-2"
           >
             Save
